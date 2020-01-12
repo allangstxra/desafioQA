@@ -1,0 +1,230 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Realizar pesquisa de médico no Rio de Janeiro",
+        "description": "",
+        "id": "acessar-guia-médico;realizar-pesquisa-de-médico-no-rio-de-janeiro",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 28713857582,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que eu esteja no site da Unimed",
+            "match": {
+              "location": "GuiaMedicoTest.que_eu_esteja_no_site_da_Unimed()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2023620031,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "acesso o Guia Médico",
+            "match": {
+              "location": "GuiaMedicoTest.acesso_o_Guia_Médico()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 249320575,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "pesquiso por um médico no Rio de Janeiro",
+            "match": {
+              "location": "GuiaMedicoTest.pesquiso_por_um_médico_no_Rio_de_Janeiro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 90374408,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu clico em Pesquisar",
+            "match": {
+              "location": "GuiaMedicoTest.eu_clico_em_Pesquisar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 880679253,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "no combo de estado e cidade eu seleciono Rio de Janeiro",
+            "match": {
+              "location": "GuiaMedicoTest.no_combo_de_estado_e_cidade_eu_seleciono_Rio_de_Janeiro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 300254812,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "seleciono a opção UNIMED RIO",
+            "match": {
+              "location": "GuiaMedicoTest.seleciono_a_opção_UNIMED_RIO()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 81203782,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu clico no botão Continuar",
+            "match": {
+              "location": "GuiaMedicoTest.eu_clico_no_botão_Continuar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3026712552,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "valido a especialidade e a cidade",
+            "match": {
+              "location": "GuiaMedicoTest.valido_a_especialidade_e_a_cidade()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Realizar pesquisa de médico no Rio de Janeiro e não apresentar médicos de São Paulo",
+        "description": "",
+        "id": "acessar-guia-médico;realizar-pesquisa-de-médico-no-rio-de-janeiro-e-não-apresentar-médicos-de-são-paulo",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 26120762772,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "que eu esteja no site da Unimed",
+            "match": {
+              "location": "GuiaMedicoTest.que_eu_esteja_no_site_da_Unimed()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1923120130,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "acesso o Guia Médico",
+            "match": {
+              "location": "GuiaMedicoTest.acesso_o_Guia_Médico()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 243638351,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "pesquiso por um médico no Rio de Janeiro",
+            "match": {
+              "location": "GuiaMedicoTest.pesquiso_por_um_médico_no_Rio_de_Janeiro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 186833941,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "eu clico em Pesquisar",
+            "match": {
+              "location": "GuiaMedicoTest.eu_clico_em_Pesquisar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 827556596,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "no combo de estado e cidade eu seleciono Rio de Janeiro",
+            "match": {
+              "location": "GuiaMedicoTest.no_combo_de_estado_e_cidade_eu_seleciono_Rio_de_Janeiro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 290284862,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "seleciono a opção UNIMED RIO",
+            "match": {
+              "location": "GuiaMedicoTest.seleciono_a_opção_UNIMED_RIO()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 86989702,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu clico no botão Continuar",
+            "match": {
+              "location": "GuiaMedicoTest.eu_clico_no_botão_Continuar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5128320166,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "valido a não apresentação de médicos de São Paulo nas páginas de um a três",
+            "match": {
+              "location": "GuiaMedicoTest.valido_a_não_apresentação_de_médicos_de_São_Paulo_nas_páginas_de_um_a_três()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Acessar Guia Médico",
+    "description": "Eu como usuário quero realizar consultas no Guia Médico da Unimed",
+    "id": "acessar-guia-médico",
+    "keyword": "Funcionalidade",
+    "uri": "guiaMedico.feature"
+  }
+]

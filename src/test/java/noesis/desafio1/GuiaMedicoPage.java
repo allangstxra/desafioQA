@@ -18,12 +18,13 @@ public class GuiaMedicoPage extends GuiaMedicoElements {
 	public static WebDriver driver;
 
 	public void acessarUnimed() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/allanteixeira/Downloads/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		Map<String, Object> prefs = new HashMap<String, Object>();
 		prefs.put("profile.managed_default_content_settings.geolocation", 2);
 		options.setExperimentalOption("prefs", prefs);
 		options.addArguments("disable-infobars");
+		//options.addArguments("--headless");
 		driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.unimed.coop.br/");

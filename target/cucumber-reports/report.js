@@ -64,56 +64,56 @@ formatter.match({
   "location": "GuiaMedicoTest.que_eu_esteja_no_site_da_Unimed()"
 });
 formatter.result({
-  "duration": 29392880289,
+  "duration": 9097945082,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.acesso_o_Guia_Médico()"
 });
 formatter.result({
-  "duration": 2011601544,
+  "duration": 310863473,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.pesquiso_por_um_médico_no_Rio_de_Janeiro()"
 });
 formatter.result({
-  "duration": 264838807,
+  "duration": 2560641423,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.eu_clico_em_Pesquisar()"
 });
 formatter.result({
-  "duration": 102029420,
+  "duration": 195435792,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.no_combo_de_estado_e_cidade_eu_seleciono_Rio_de_Janeiro()"
 });
 formatter.result({
-  "duration": 826781035,
+  "duration": 1459397542,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.seleciono_a_opção_UNIMED_RIO()"
 });
 formatter.result({
-  "duration": 357572301,
+  "duration": 622826935,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.eu_clico_no_botão_Continuar()"
 });
 formatter.result({
-  "duration": 78952172,
+  "duration": 146752515,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.valido_a_especialidade_e_a_cidade()"
 });
 formatter.result({
-  "duration": 3727028609,
+  "duration": 1954399146,
   "status": "passed"
 });
 formatter.scenario({
@@ -168,56 +168,56 @@ formatter.match({
   "location": "GuiaMedicoTest.que_eu_esteja_no_site_da_Unimed()"
 });
 formatter.result({
-  "duration": 25571333748,
+  "duration": 5126510334,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.acesso_o_Guia_Médico()"
 });
 formatter.result({
-  "duration": 2052381663,
+  "duration": 707124321,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.pesquiso_por_um_médico_no_Rio_de_Janeiro()"
 });
 formatter.result({
-  "duration": 240116463,
+  "duration": 1571229571,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.eu_clico_em_Pesquisar()"
 });
 formatter.result({
-  "duration": 133917597,
+  "duration": 199798428,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.no_combo_de_estado_e_cidade_eu_seleciono_Rio_de_Janeiro()"
 });
 formatter.result({
-  "duration": 830389336,
+  "duration": 1606587382,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.seleciono_a_opção_UNIMED_RIO()"
 });
 formatter.result({
-  "duration": 292376607,
+  "duration": 941199923,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.eu_clico_no_botão_Continuar()"
 });
 formatter.result({
-  "duration": 82433553,
+  "duration": 179888273,
   "status": "passed"
 });
 formatter.match({
   "location": "GuiaMedicoTest.valido_a_não_apresentação_de_médicos_de_São_Paulo_nas_páginas_de_um_a_três()"
 });
 formatter.result({
-  "duration": 5065120622,
+  "duration": 4867522471,
   "status": "passed"
 });
 });
